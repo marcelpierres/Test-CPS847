@@ -18,5 +18,5 @@ after_success:
 deploy:
     provide: s3
     bucket: www.marcelpierres.com
-    local-dir: Test-CPS847/
+    local-dir: s3_play/sample_html
     region: ca-central-1
