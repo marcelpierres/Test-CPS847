@@ -2,7 +2,7 @@ language: python
 
 python:
 - "2.7"
-- "3.3"
+
 
 install:
 - pip install codecov
@@ -17,6 +17,6 @@ after_success:
 
 deploy:
     provide: s3
-    bucket:
-    local-dir:
-    region:
+    bucket: www.marcelpierres.com
+    local-dir: Test-CPS847
+    region: ca-central-1
