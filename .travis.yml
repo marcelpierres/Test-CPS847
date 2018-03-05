@@ -13,10 +13,10 @@ script:
 - coverage run test.py
 
 after_success:
-- codecov
+- codecov --token=7dad372a-7b00-4834-98de-a885c1e2d211
 
 deploy:
     provide: s3
     bucket: www.marcelpierres.com
-    local-dir: Test-CPS847
+    local-dir: Test-CPS847/
     region: ca-central-1
