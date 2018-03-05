@@ -17,6 +17,9 @@ after_success:
 
 deploy:
     provider: s3
+    access_key_id: AKIAJJ2NLD2IJGR25IMQ 
+    secret_access_key:
+    secure: Bm5x85NPTh4R1DtZv8XbBcZTZVJl5pVB3onjcGM2HBRVJvPkXsI6FuP4GQXkVMrT4bvC+Rq2S6kSO/gX4EkgXbF0i0F0PJnbg9RZLaVx0O5N5yT1uG0RDbcSGdSRvR/YYx2jJ9CyET3WDuNFqXotDq7OXuWyPdfU4c5u9K4bdvL/vTa3dG/OWI/ZCXqczrtO0m+hmHEG7gSPVeB/UtGUdaJKLRivRCsFrfgOYv+zA6vPdyl6oaX6gsZYv7qQTUBjJp5cmUQYC30V+6Cec4lKa/oDB5ep7ItC0Vjqtje96Ly4JzQGjo/emwuqVbxvqWTZhiSEKBGNAVUK+ZzH08FynNT5oRmX3VrZB4euIiIzU5W7+fOTi28mTY6NKCnyKQgTDDKqo3ihDAqfzKnxa8DnkNXkU8gosXcbePuXNXdu27xZvyvRI2iGTK+cVShp9dJ5adbGB/oYLd/v4vgQEckjwZv6YYq9E6rM60N+nETxkJlZlpCkc6dAf7EGRaQVu7jyI0EVMRYYU2NPxKezwoU/kogr3l987rp9NGrlpgAtXOa0N8zotVdsaNFkQ/ybU+o8D/+MDDKpMRmhZt8qOfaicnRWJsA8GngguqyuhuAEDOGXAqdrFNBTs0oY0B9ECE3QbmcnLf1lGle95Yt8ofixBGf+kTXtEJ8r9WSIdcXcWT4=
     bucket: www.marcelpierres.com
     local-dir: s3_play/sample_html
     region: ca-central-1
