@@ -16,7 +16,7 @@ after_success:
 - codecov --token=7dad372a-7b00-4834-98de-a885c1e2d211
 
 deploy:
-    provide: s3
+    provider: s3
     bucket: www.marcelpierres.com
     local-dir: s3_play/sample_html
     region: ca-central-1
